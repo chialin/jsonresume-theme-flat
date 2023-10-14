@@ -171,3 +171,15 @@ h4 span:first-child {
 		display: none;
 	}
 }
+
+/* custom for prevent widow */
+section#work .col-sm-12 {
+	page-break-inside: avoid;
+}
+
+section#skills,
+section#volunteer,
+section#education,
+section#languages {
+	page-break-inside: avoid;
+}
