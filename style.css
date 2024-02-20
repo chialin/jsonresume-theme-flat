@@ -185,3 +185,11 @@ section#work .col-sm-12 {
 section.row {
 	page-break-inside: avoid;
 }
+
+section#work {
+	page-break-inside: auto;
+}
+
+section#work .col-sm-12 {
+	page-break-inside: avoid;
+}
